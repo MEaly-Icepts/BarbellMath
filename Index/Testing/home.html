@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbell Plate Calculator</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Barbell Plate Calculator</h1>
+        
+        <label for="unit">Select Unit:</label>
+        <select id="unit" onchange="updateUnitSelection()">
+            <option value="imperial">Imperial (lbs)</option>
+            <option value="metric">Metric (kg)</option>
+        </select>
+
+        <div id="imperialInputs" class="inputs">
+            <label for="barbellWeightImperial">Current Barbell Weight (lbs):</label>
+            <input type="number" id="barbellWeightImperial" min="0" placeholder="Enter weight in lbs">
+        </div>
+
+        <div id="metricInputs" class="inputs">
+            <label for="barbellWeightMetric">Current Barbell Weight (kg):</label>
+            <input type="number" id="barbellWeightMetric" min="0" placeholder="Enter weight in kg">
+        </div>
+
+        <label for="desiredWeight">Desired Total Weight:</label>
+        <input type="number" id="desiredWeight" min="0" placeholder="Enter desired weight">
+
+        <button onclick="calculatePlates()">Calculate Plates</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="Script/script.js"></script>
+</body>
+</html>
