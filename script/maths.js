@@ -91,3 +91,23 @@ function displayResult(plateCount) {
 
 // Initialize the unit selection based on the default value
 updateUnitSelection();
+
+//Function to reset the page to defaults
+function resetPage() {
+    // Reset dropdown to default value
+    document.getElementById('unit').value = 'imperial';
+
+    // Reset input fields
+    document.getElementById('barbellWeightImperial').value = '';
+    document.getElementById('barbellWeightMetric').value = '';
+    document.getElementById('desiredWeight').value = '';
+
+    // Clear the result section
+    document.getElementById('result').innerHTML = '';
+
+    // Optionally hide metric inputs and show imperial inputs (default state)
+    document.getElementById('imperialInputs').style.display = 'block';
+    document.getElementById('metricInputs').style.display = 'none';
+
+    console.log('Page has been reset to default.');
+}

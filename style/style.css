@@ -35,14 +35,14 @@ input, select, button {
 }
 
 button {
-    background-color: #28a745;
+    background-color: #1408f6;
     color: white;
     font-weight: bold;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #1408f6;
 }
 
 .inputs {
