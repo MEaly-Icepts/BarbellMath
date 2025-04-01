@@ -43,14 +43,14 @@ Currently the site has assumed weights avalble for you to use and the default we
 
 <summary>Road Map</summary>
 
-The following are my next steps in making this a more useable site for others. 
+The following are my next steps in making this a more useable site for others. I might add a link to a suggestions form. I don't know yet. Stil lweighing the pro's and con's. 
 
 
 ### Road Map
+
 - [ ] Allow selecting avalable plates
 - [x] Allow setting bar weight
 - [ ] Add a Total weight per side information
 - [x] Add Metric
-
 
 </details>
