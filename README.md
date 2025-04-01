@@ -48,7 +48,7 @@ The following are my next steps in making this a more useable site for others.
 
 ### Road Map
 - [ ] Allow selecting avalable plates
-- [X] Allow setting bar weight
-
+- [x] Allow setting bar weight
+- [ ] Add a Total weight per side information
 
 </details>
