@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: #333; /* Default text color */
+    color: #000; /* Default text color */
 }
 
 .container {
@@ -12,7 +12,7 @@ body {
     margin: 50px auto;
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
     border-radius: 10px;
 }
 
@@ -42,7 +42,7 @@ button {
 }
 
 button:hover {
-    background-color: #1408f6;
+    background-color: #1b10f7;
 }
 
 .inputs {
