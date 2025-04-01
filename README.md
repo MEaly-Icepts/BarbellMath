@@ -50,5 +50,7 @@ The following are my next steps in making this a more useable site for others.
 - [ ] Allow selecting avalable plates
 - [x] Allow setting bar weight
 - [ ] Add a Total weight per side information
+- [x] Add Metric
+
 
 </details>
